@@ -1,0 +1,40 @@
+.card
+  width: 100%
+  max-width: 462px
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1)
+  background-color: #ffffff
+  border-radius: 4px
+  padding: 20px
+  margin-bottom: 20px
+  &__title
+    display: flex
+    justify-content: space-between
+    margin-bottom: 15px
+    &-sum
+      font-size: 24px
+      font-weight: 600
+      color: #2196F3
+    &-logo
+      width: 120px
+      height: 41px
+      background-size: 120px
+      background-image: url("../../../public/images/a4e.svg")
+      background-repeat: no-repeat
+  &__content
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    &:not(:last-child)
+      margin-bottom: 10px
+    &-item
+      display: flex
+      flex-direction: column
+      strong
+        &:first-child
+          font-size: 12px
+          font-weight: 600
+          line-height: 18px
+          color: #A0B0B9
+          text-transform: uppercase
+        &:last-child
+          font-size: 14px
+          line-height: 21px

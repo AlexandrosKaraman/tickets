@@ -1,0 +1,119 @@
+{
+  "tickets": [
+    {
+      "price": 23900,
+      "formatted_price": "23 900$",
+      "airline": "a4e",
+      "route": [
+        {
+          "departure": "LHR",
+          "arrival": "DXB",
+          "departure_time": "10:45",
+          "arrival_time": "08:00",
+          "duration": 675,
+          "layover_airport": []
+        },
+        {
+          "departure": "DXB",
+          "arrival": "LHR",
+          "departure_time": "11:20",
+          "arrival_time": "00:50",
+          "duration": 570,
+          "layover_airport": []
+        }
+      ]
+    },
+    {
+      "price": 15100,
+      "formatted_price": "15 100$",
+      "airline": "a4e",
+      "route": [
+        {
+          "departure": "LHR",
+          "arrival": "DXB",
+          "departure_time": "10:45",
+          "arrival_time": "08:00",
+          "duration": 1035,
+          "layover_airport": ["HKG", "JNB"]
+        },
+        {
+          "departure": "DXB",
+          "arrival": "LHR",
+          "departure_time": "11:20",
+          "arrival_time": "00:50",
+          "duration": 2430,
+          "layover_airport": ["HKG", "JNB"]
+        }
+      ]
+    },
+    {
+      "price": 15400,
+      "formatted_price": "15 400$",
+      "airline": "a4e",
+      "route": [
+        {
+          "departure": "LHR",
+          "arrival": "DXB",
+          "departure_time": "10:45",
+          "arrival_time": "08:00",
+          "duration": 815,
+          "layover_airport": ["HKG"]
+        },
+        {
+          "departure": "DXB",
+          "arrival": "LHR",
+          "departure_time": "11:20",
+          "arrival_time": "00:50",
+          "duration": 550,
+          "layover_airport": ["HKG"]
+        }
+      ]
+    },
+    {
+      "price": 21400,
+      "formatted_price": "21 400$",
+      "airline": "a4e",
+      "route": [
+        {
+          "departure": "LHR",
+          "arrival": "DXB",
+          "departure_time": "10:45",
+          "arrival_time": "08:00",
+          "duration": 1275,
+          "layover_airport": ["HKG", "JNB", "JNB"]
+        },
+        {
+          "departure": "DXB",
+          "arrival": "LHR",
+          "departure_time": "11:20",
+          "arrival_time": "00:50",
+          "duration": 750,
+          "layover_airport": ["HKG", "JNB", "JNB"]
+        }
+      ]
+    },
+    {
+      "price": 13300,
+      "formatted_price": "13 300$",
+      "airline": "a4e",
+      "route": [
+        {
+          "departure": "LHR",
+          "arrival": "DXB",
+          "departure_time": "10:45",
+          "arrival_time": "08:00",
+          "duration": 2055,
+          "layover_airport": ["HKG"]
+        },
+        {
+          "departure": "DXB",
+          "arrival": "LHR",
+          "departure_time": "11:20",
+          "arrival_time": "00:50",
+          "duration": 990,
+          "layover_airport": ["HKG"]
+        }
+      ]
+    }
+  ]
+}

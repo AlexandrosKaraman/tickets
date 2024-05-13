@@ -1,0 +1,30 @@
+.app
+  max-width: 960px
+  margin: 0 auto
+  padding: 50px 100px
+  &__logo
+    background-size: auto
+    position: relative
+    left: 33%
+    margin-bottom: 50px
+    border-radius: 50%
+    cursor: pointer
+    &:hover
+      opacity: .7
+  &__layout
+    display: flex
+    gap: 20px
+    &-filters
+      padding: 20px
+      min-width: 147px
+      &-title
+        font-size: 13px
+        font-weight: 600
+        margin-bottom: 18px
+
+  @media screen and (max-width: 900px)
+    padding: 20px 20px
+    &__logo
+      margin-bottom: 20px
+    &__layout
+      display: block
